@@ -1,7 +1,40 @@
 body{
-    background-color: solid greenyellow;
+    background-color: #fffDD0;
+    max-width: 90%;
+}
+
+img{
+    border-radius: 10px;
+    border: solid red;
+    float: right;
+    width : 38%;
+    margin: 0 1 1em 1em;
+}
+
+.title{
+    text-align: center;
+}
+
+.align{
+    max-width: 60%;
+    margin: auto;
+}
+
+.description{
+    border-radius: 5px;
+    border: solid black;
+    float: left;
+    width: auto;
+
+}
+
+.highlight{
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
 }
 
 .items{
-    text-align: center;
+    font-style: oblique;
 }
+
